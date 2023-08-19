@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using YourNamespace.Models; // Make sure to replace "YourNamespace" with the appropriate namespace.
+using Books.Models;
+using Category.Models;
+using CategoryType.Models; 
+//Using my database models
 
 public class BooksController : Controller
 {
